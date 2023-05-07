@@ -1,0 +1,118 @@
+@import 'mediaqueries.css';
+.contenedor {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f1f1f1;
+}
+
+.box-login {
+  max-width: 400px;
+  width: 100%;
+  background-color: #ffffff;
+}
+
+#logoSkoy {
+  max-width: 200px;
+  margin: 20px auto;
+  display: block;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-field-pass {
+  position: relative;
+}
+
+.text-field-pass #icon-view-pass2 {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  cursor: pointer;
+}
+
+.toggle-password[type="password"] {
+  font-family: sans-serif;
+}
+
+.mdc-text-field {
+  margin-bottom: 20px;
+  font-size: 16px;
+}
+
+.mdc-text-field__input {
+  border-radius: 20px;
+  border: none;
+  background-color: #f1f1f1;
+  padding: 15px 20px;
+}
+
+.mdc-floating-label {
+  color: #6c757d;
+}
+
+.mdc-notched-outline__notch {
+  padding: 0 10px;
+}
+
+.mdc-notched-outline__trailing {
+  border-radius: 20px;
+}
+
+.mdc-text-field__icon {
+  cursor: pointer;
+  color: #6c757d;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 10px;
+}
+
+.mdc-text-field__icon:hover {
+  color: #212529;
+}
+
+.btnLogin {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 18px;
+  font-weight: 500;
+  margin-top: 20px;
+  transition: all 0.3s ease-in-out;
+}
+
+.btnLogin:hover {
+  background-color: #0062cc;
+}
+
+.button_cancelar {
+  color: #212529;
+  margin-top: 10px;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.button_cancelar:hover {
+  text-decoration: underline;
+}
+
+.link-custom {
+  margin-top: 20px;
+  font-size: 16px;
+  color: #6c757d;
+}
+
+.link-custom a {
+  color: #007bff;
+}
+
+.link-custom a:hover {
+  color: #0056b3;
+}
